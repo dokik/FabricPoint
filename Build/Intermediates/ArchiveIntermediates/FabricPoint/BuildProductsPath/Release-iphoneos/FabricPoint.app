@@ -1,0 +1,1 @@
+/Users/doki/Desktop/code12/FabricPoint/Build/Intermediates/ArchiveIntermediates/FabricPoint/InstallationBuildProductsLocation/Applications/FabricPoint.app

@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "929f0194c96362b65bc76cedf0242233"
+build_time: [553760971, 183845000]
+inputs:
+  "/Users/doki/Desktop/code12/FabricPoint/FabricPoint/ViewController.swift": [553678724, 0]
+  "/Users/doki/Desktop/code12/FabricPoint/FabricPoint/CaptureHandler.swift": [553746960, 0]
+  "/Users/doki/Desktop/code12/FabricPoint/FabricPoint/WaitingViewController.swift": [553746960, 0]
+  "/Users/doki/Desktop/code12/FabricPoint/FabricPoint/AppDelegate.swift": [553229271, 0]
+  "/Users/doki/Desktop/code12/FabricPoint/FabricPoint/CameraViewController.swift": [553749656, 0]
+  "/Users/doki/Desktop/code12/FabricPoint/FabricPoint/AlertUtility.swift": [553745542, 0]
