@@ -116,11 +116,11 @@ class ViewController: UIViewController, ViewControllerDelegate, UITableViewDataS
     }
     
     func initDeploy() {
-        url = url_host + "chaincode";
-        let JSONdata = createJSONdataForPointApp(method: "deploy", functionName: "init", args: [], id: 1)
-        
 //        url = url_host + "chaincode";
-//        let JSONdata = createJSONdataForPointApp(method: "deploy", functionName: "get_all", args: ["dd8f70b11c9a216344acbe681936ee3eec586d11180ed7e26663dccd6da3d395883503298a27bd5406d7570c6a1ea3ab9789b37da9674c1cb00ad0da5433b2e4"], id: 1)
+//        let JSONdata = createJSONdataForPointApp(method: "deploy", functionName: "init", args: [], id: 1)
+        
+        url = url_host + "chaincode";
+        let JSONdata = createJSONdataForPointApp(method: "deploy", functionName: "get_all", args: ["dd8f70b11c9a216344acbe681936ee3eec586d11180ed7e26663dccd6da3d395883503298a27bd5406d7570c6a1ea3ab9789b37da9674c1cb00ad0da5433b2e4"], id: 1)
         
         executeJsonRpc(url_exec: url, JSONdata: JSONdata) {
             (data, response, error) in
